@@ -1,0 +1,7 @@
+{
+  "username": "ympsonek",
+  "pathToPosts": "./posts/",
+  "outputHtmlPath": "./dist/",
+  "pathToIndexTemplate": "./index.ejs",
+  "pathToPostTemplate": "./layout.ejs"
+}

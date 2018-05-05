@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= username %>'s minimal devblog</title>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link href="/assets/style.css" rel="stylesheet" />
+  <link href="/assets/prism-tomorrow.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="top">
+      <span class="console"><%= username %>'s minimal devblog</span>
+    </div>
+
+    <div class="contents">
+        <%- content %>
+    </div>
+
+    <div>
+      <a href="index.html">Back to index.</a>
+    </div>
+    <hr/>
+
+    <div class="footer">
+      <a href="https://github.com/ympek/minimal-devblog">minimal-devblog</a> by
+      <a href="https://github.com/ympek">@ympek</a>. It's open source.
+    </div>
+  </div>
+
+  <script src="/assets/prism.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "minimal-devblog",
+  "version": "1.0.0",
+  "description": "something like jekyll but mine all mineeeee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ympek",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "prismjs": "^1.12.2",
+    "showdown": "^1.8.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0"
+  }
+}
